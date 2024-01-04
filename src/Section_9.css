@@ -1,0 +1,180 @@
+.sub-footer{
+    background-color: black;
+    width: 100%;
+    padding-block: 50px;
+}
+.main-logo{
+    height: 180px;
+    width: 140px;
+    object-fit: contain;
+}
+.parent-link{
+    display: flex;
+    gap: 10px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    
+}
+.sub-footer-lable > ul{
+    padding: 0;
+    margin: 0;
+}
+.sub-footer-lable > ul > li > h4{
+    color: white;
+    margin-top: 20px;
+    font-family: Raleway-Bold;
+}
+.sub-footer-lable > ul > li{
+    margin: 0 0 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.sub-footer-lable > ul > li > p{
+    font-size: 16px;
+    font-family: Raleway-Medium;
+    margin-bottom: 0;
+    color: white;
+    text-decoration: none;
+}
+.sub-footer-lable > ul > li > a{
+    font-size: 16px;
+    font-family: Raleway-Medium;
+    margin-bottom: 0;
+    color: white;
+    text-decoration: none;
+}
+.sub-footer-input {
+    position: relative;
+    font-family: Raleway-Medium;
+    width: 100%;
+    border-radius: 5px;
+    color: #8c8c8c;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.input-group{
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+.input-group .btn {
+    z-index: 2;
+    position: relative;
+    padding: 7px 40px;
+    border-left: 10px;
+    border-radius: 10px;
+    background-color: #FBCD39;
+    border: none;
+}
+.input-button{
+    box-shadow: none !important;
+    background-color: none !important;
+}
+
+.input-button  a{
+    padding: 40px 20px;
+    text-decoration: none;
+    font-family: Raleway-Medium;
+    font-size: 20px;
+    color: white;
+}
+.btn-outline-secondary {
+    color: #fff;
+    border-color: #FBCD39;
+}
+.footer-top {
+    border-top: 0.75px solid white;
+    background-color: black;
+    padding-block: 20px;
+}
+.footer p{
+    color: white;
+    font-family: Raleway-Medium;
+    font-size: 16px;
+
+}
+.foter-main{
+    display: flex;
+    margin: 0;
+    padding: 0;    
+    justify-content: end;
+}
+.foter-main p{
+    margin:0;
+    padding: 0;
+    text-align: right;
+}
+.foter-main a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Raleway-Medium;
+    font-size: 16px;
+    
+}
+.sub{
+    color: #fff;
+    padding-inline: 30px;
+}
+.mail-errors{
+    color: red;
+    margin-top: -10px;
+}
+
+@media (max-width: 767px){
+    .input-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-group>.form-control, .input-group>.form-select {
+        width: 100%;
+    }
+    .footer-top {
+        padding-inline: 0;
+    }
+    .sub {
+        padding-inline: 10px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+    .footer p {
+        font-size: 13px;
+  
+    }
+    .foter-main{
+        display: flex;
+        justify-content: center;
+    }
+    .foter-main a{
+        font-size: 13px;
+        padding-inline: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .footer-top {
+        padding-inline: 30px;
+        padding-block: 10px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+
+}

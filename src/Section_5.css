@@ -1,0 +1,136 @@
+.section-5{
+   padding-block: 100px;
+}
+.react-calendar{
+    border: none !important;
+    width: 100% !important;
+}
+.react-calendar__navigation__label__labelText--from{
+    font-size: 15px;
+}
+.react-calendar__month-view__weekdays__weekday{
+    font-size: 13px;
+    color: #838383;
+    text-decoration: none;
+    border: none;
+}
+abbr[title]{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+}
+.react-calendar__month-view__days__day--weekend{
+    color: black;
+}
+.react-calendar__tile--active{
+    background-color: #ffcc234f;
+    color: #FFCA23;
+    border-radius: 70px;
+
+}
+.react-calendar__tile--now{
+    background-color: #ffcc234f;
+    border-radius: 50px;
+}
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus{
+    background-color: #ffcc234f;
+    color: #FFCA23;
+    border-radius: 50px;
+}
+.react-calendar__tile{
+    font-size: 11PX;
+    font-weight: 300;
+}
+.calendar-main{
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 28px 76px -8px rgba(235,235,235,0.70);
+}
+.rideside-header h4{
+    font-size: 16px;
+    font-family: Raleway-Bold;
+    
+}
+.pft-logo{
+    width: 100px;
+}
+.pft-logo img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.heading-pft{
+    margin: 0px;
+    padding-top: 10px;
+    font-family: Raleway-Bold;
+    font-size: 16px;
+}
+.heading-pft h5{
+    font-family: Raleway-Bold;
+    font-size: 22px;
+}
+.Prosperity-heading h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Raleway-semiBold;
+}
+.pro-content p{
+    color: #8c8c8c;
+    font-family: kanit-Regular;
+    font-size: 13px;
+
+}
+.left-side-main{
+    border-right: 1px solid rgba(128, 128, 128, 0.344);
+}
+.pro-btn{
+    margin-top: 30px;
+}
+.pro-btn a{
+    text-decoration: none;
+    color: #FBCD39;
+    font-family: Raleway-Bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.rideside-drop select{
+    border: none;
+    font-size: 13px;
+    color: #838383;
+}
+.rideside-drop{
+    padding-block: 20px;
+}
+
+@media (max-width: 767px){
+    .section-5 {
+       padding-block: 30px;
+    }
+    .calendar-main {
+        width: 100%;
+        height: auto;
+    }
+    .left-side-main{
+        border-right: none;
+    }
+    .rideside-header h4{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .section-5 {
+        padding-block: 50px;
+     }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+
+}

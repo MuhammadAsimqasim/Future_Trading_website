@@ -1,0 +1,96 @@
+.section-6-containt{
+    padding-block: 100px;
+}
+.testimonial h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Raleway-Medium;
+}
+.zaiper-image{
+    height: auto;
+    width: 80px;
+    padding-block: 10px;
+    object-fit: contain;
+}
+.parson-image{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+.testi-section{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+.testi-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+.testi-card{
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: -5px 5px 21px rgba(51, 51, 51, 0.11);
+    transition: all 1s ease;
+    border: 0.75px solid #EFF0F6;
+    cursor: pointer;
+}
+.testi-card:hover{
+    box-shadow: 9px 9px 21px rgba(51, 51, 51, 0.15);
+    transform: translateY(-4px);
+}
+.testi-card > p{
+    font-size: 16px;
+    font-family: kanit-Regular;
+    color: #8c8c8c;
+    line-height: 28px;
+    padding-block: 20px;
+    margin: 0;
+}
+.test-person{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-block: 20px;
+}
+.name-person > h4{
+    font-size: 18px;
+    font-family: kanit-SemiBold;
+}
+.name-person > p{
+    font-size: 13px;
+    font-family: kanit-Regular;
+    margin: 0;
+}
+
+
+@media (max-width: 767px){
+    .section-6-containt{
+        padding-block: 30px;
+    }
+    .testi-card > p {
+        font-size: 14px;
+    }
+    .name-person > h4 {
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .section-6-containt{
+        padding-block: 50px;
+    }
+    .name-person > h4 {
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .testi-section {
+        width: 95%;
+    }
+
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+
+}

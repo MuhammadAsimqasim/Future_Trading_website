@@ -1,0 +1,122 @@
+.section-2-containt{
+    padding-block: 100px;
+}
+.section-2-heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.section-2-heading > h2{
+ font-size: 45px;
+ font-family: Raleway-Medium;
+}
+.watch-image{
+    height: 450px;
+    width: 350px;
+    object-fit: contain;
+}
+.lestside-image{
+    position: relative;
+}
+.leftside-coin{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+}
+.small-coin{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    top: 100px;
+}
+.rideside-one{
+    margin: 20px 0 0;
+}
+.rideside-icon{
+ display: flex;
+ gap: 20px;
+}
+.bigicon1{
+    height: 70px;
+    width: 80px;
+}
+.ridesidecontaint > h1{
+    font-size: 30px;
+    font-family: Raleway-semiBold;
+}
+.ridesidecontaint  > p{
+    font-size: 15px;
+    font-family: kanit-Regular;
+    color: #8c8c8c;
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    .section-2-containt{
+        padding-block: 30px;
+    }
+    .section-2-heading > h2 {
+        font-size: 20px;
+    }
+    .watch-image {
+        height: 260px;
+        width: 90%;
+        padding: 0px 0 0;
+        object-fit: contain;
+    }
+    .leftside-coin {
+        bottom: 0;
+        right: 0;
+    }
+    .small-coin {
+        left: 0px;
+        top: 30px;
+    }
+    .bigicon1 {
+        height: 50px;
+        width: 60px;
+    }
+    .ridesidecontaint > h1 {
+        font-size: 17px;
+    }
+    .ridesidecontaint > p {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .section-2-containt{
+        padding-block: 50px;
+    }
+    .section-2-heading > h2 {
+        font-size: 35px;
+        font-family: Raleway-Medium;
+    }
+    .bigicon1 {
+        height: 60px;
+        width: 70px;
+    }
+    .ridesidecontaint > h1 {
+        font-size: 21px;
+    }
+    .ridesidecontaint > p {
+        font-size: 12px;
+    }
+    .watch-image {
+        height: 390px;
+        width: 285px;
+        object-fit: contain;
+    }
+    .small-coin {
+        left: 0px;
+        top: 100px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+
+}

@@ -1,0 +1,124 @@
+.section-7-two{
+    padding-block: 100px;
+}
+.section-7-image{
+    margin-top: 150px;
+}
+.massage-image{
+    height: 270px;
+    width: 350px;
+    object-fit: contain;
+}
+.massage-box{
+    height: 100px;
+    width: 97%;
+    padding: 10px;
+    margin-left: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Raleway-Medium;
+    border: 1px solid #E4E4E4;
+    font-size: 15px;
+}
+.form-control{
+    box-shadow: none !important;
+    border-color: #BDBDBD  !important;
+}
+.form-select{
+    box-shadow: none !important;
+    border-color: #BDBDBD  !important;
+
+}
+.email{
+    font-family: Raleway-Medium;
+    color: #8c8c8c;
+   
+}
+.placeholder{
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Raleway-Medium;
+    color: #BDBDBD;
+    font-size: 15px;
+    border-color: #E4E4E4;
+    border: 1px solid #E4E4E4;
+    min-height: 52px;
+
+}
+.Inquiry h1{
+    font-family: Raleway-Medium;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.massage-lable{
+    font-family: Raleway-Medium;
+    color: #8c8c8c;
+    margin-top: 10px;
+    
+}
+.section-7-btn{
+    display: flex;
+    justify-content: center;
+}
+.section-7-btn a{
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FBCD39;
+    margin-top: 20px;
+    font-family: Raleway-semiBold;
+    text-decoration: none;
+}
+.form-errors{
+    color: red;
+    padding-top: 10px;
+    font-family: Raleway-Medium;
+}
+
+@media (max-width: 767px){
+    .section-7-two{
+        padding-block: 30px;
+    }
+    .form-label {
+        margin-block: 10px;
+    }
+    .massage-image {
+        width: 90%;
+        object-fit: contain;
+    }
+    .section-7-image {
+        margin-block: 20px;
+    }
+    .section-7-two {
+        padding: 10px 0 0;
+    }
+    .Inquiry h1{
+        font-size: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .section-7-two{
+        padding-block: 50px;
+    }
+    .form-label {
+        margin-block: 10px;
+    }
+    .massage-image {
+        height: 260px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .Inquiry h1 {
+        font-size: 25px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+    
+}

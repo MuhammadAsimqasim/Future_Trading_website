@@ -1,0 +1,167 @@
+.rightside-containt {
+   padding-block: 100px;
+}
+.rightside-Heading > h4{
+   font-size: 20px;
+   font-family: kanit-Regular;
+   color: #8C8C8C;
+}
+.rightside-Heading > h3{
+    font-family: Raleway-Medium;
+    font-size: 60px;
+}
+.rightside-Heading > h1{
+    font-family: Raleway-Bold;
+    margin-top: -15px;
+    font-size: 60px;
+}
+.rightside-Heading > p{
+    font-family: kanit-Regular;
+    color: #8C8C8C;
+    font-size: 18px;
+    text-align: justify;
+}
+.button-section-1{
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FBCD39;
+    margin-top: 20px;
+    font-family: Raleway-semiBold;
+}
+.section-1-rideside-image{
+    position: relative;
+}
+.rideside-image {
+    height: 500px;
+    width: 550px;
+}
+.coin-image{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 20px;
+    top: 0;
+}
+.small-coin-image{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 80px;
+    right: 50px;
+}
+.small-coin-image-1{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 90px;
+    bottom: 50px;
+}
+
+@media (max-width: 767px){
+    .rightside-containt {
+        padding-block: 30px;
+    }
+    .rightside-Heading > h4 {
+        font-size: 15px;
+    }
+    .rightside-Heading > h3 {
+        font-size: 30px;
+    }
+    .rightside-Heading > h1 {
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    .rightside-Heading > p {
+        font-size: 15px;
+    }
+    .rideside-image {
+        height: 265px;
+        width: 90%;
+        object-fit: contain;
+    }
+    .section-1-rideside-image{
+        margin-top: 30px;
+    }
+    .coin-image {
+        height: 50px;
+        width: 50px;
+        left: 0px;
+        top: 0;
+    }
+    .small-coin-image {
+        top: 50px;
+        right: 0px;
+    }
+    .small-coin-image-1 {
+        left: 10px;
+        bottom: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .rightside-containt {
+        padding-block: 50px;
+    }
+    .rightside-Heading > h4 {
+        font-size: 15px;
+    }
+    .rightside-Heading  > h3 {
+        font-size: 35px;
+    }
+    .rightside-Heading > h1 {
+        margin-top: -10px;
+        font-size: 35px;
+    }
+    .rideside-image {
+        height: 320px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .section-1-rideside-image{
+        margin-top: 60px;
+    }
+    .coin-image {
+        left: 20px;
+        top: -30px;
+    }
+    .small-coin-image {
+        top: 60px;
+        right: 0px;
+    }
+    .small-coin-image-1 {
+        left: 40px;
+        bottom: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    /* .rightside-containt {
+        padding: 80px 0 0;
+    } */
+    .rightside-Heading > h4 {
+        font-size: 18px;
+    }
+    .rightside-Heading > h3 {
+        font-size: 50px;
+    }
+    .rightside-Heading > h1 {
+        margin-top: -10px;
+        font-size: 50px;
+    }
+    .rideside-image {
+        height: 380px;
+        width: 450px;
+        object-fit: contain;
+    }
+    .small-coin-image-1 {
+        left: 60px;
+        bottom: 40px;
+    }
+    .small-coin-image {
+        top: 70px;
+        right: 0px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+
+}
