@@ -26,14 +26,11 @@ function Section_7() {
     initialValues: initialValues,
 
     validationSchema:signUpSchema,
-    onSubmit:(values,action) => {
+    onSubmit:(values) => {
       console.log(values);
-      // action.resetForm();
-     
 
 
-
-      const emailbody = `
+      const emailForm = `
       name: ${values.name} 
       last_name: ${values.last_name}
       email: ${values.email} 
@@ -44,10 +41,29 @@ function Section_7() {
 
 
 
-      const mailtoLink =`mailto:maq.asimqasim@gmail.com?subject=inquiry&body=${encodeURIComponent(emailbody)}`;
+      const mailtoLink =`mailto:maq.asimqasim@gmail.com?subject=inquiry&body=${encodeURIComponent(emailForm)}`;
 
 
       window.location.href=mailtoLink;
+     
+
+
+
+      // const emailbody = `
+      // name: ${values.name} 
+      // last_name: ${values.last_name}
+      // email: ${values.email} 
+      // Country: ${values.Country}
+      // Interested: ${values.Interested}
+      // Massage: ${values.Massage}
+      // ` ;
+
+
+
+      // const mailtoLink =`mailto:maq.asimqasim@gmail.com?subject=inquiry&body=${encodeURIComponent(emailbody)}`;
+
+
+      // window.location.href=mailtoLink;
 
 
     },
@@ -101,7 +117,6 @@ function Section_7() {
            value={values.last_name}
            onChange={handleChange}
            onBlur={handleBlur}
-          //  onBlur={ () => setFieldTouched( 'last_name' , true)}
            name='last_name'
            type="last_name"
            id='last_name'
@@ -173,7 +188,6 @@ function Section_7() {
            value={values.Massage}
            onChange={handleChange}
            onBlur={handleBlur}
-          //  onBlur={ () => setfe}
         name='Massage'
         id='Massage'
         className='massage-box'
