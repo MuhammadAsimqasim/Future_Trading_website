@@ -75,7 +75,7 @@ function Section_9() {
             <div className='sub-footer-lable'>
             <ul>
                 <li><h4>Community</h4></li>
-                <li><a href="#">Discord</a></li>
+                <li className='mt-2'><a href="#">Discord</a></li>
                 <li><a href="#">Software</a></li>
             </ul>
 

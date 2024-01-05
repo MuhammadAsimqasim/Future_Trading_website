@@ -2,6 +2,8 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Section_4.css';
 import CheckIcon from './Assests/check.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import Dimond from './Assests/dimond.png'
 function Section_4() {
   return (
@@ -32,7 +34,7 @@ function Section_4() {
                 <div class="monthly-content">
                     <div class="icon-content">
                         <div class="icon-mon">
-                            <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">2 weeks FREE with first month subscription!</p>
@@ -40,7 +42,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">Access to premium discord server (signals)</p>
@@ -48,7 +50,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">1 Month mentorship included</p>
@@ -56,7 +58,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">1 single psychology session included</p>
@@ -87,7 +89,7 @@ function Section_4() {
                 <div class="monthly-content">
                     <div class="icon-content">
                         <div class="icon-mon">
-                            <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">2 weeks FREE with first month subscription!</p>
@@ -95,7 +97,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">Access to premium discord server (signals)</p>
@@ -103,7 +105,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">1 Month mentorship included</p>
@@ -111,7 +113,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">1 single psychology session included</p>
@@ -119,7 +121,7 @@ function Section_4() {
                     </div>
                     {/* <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                         <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">Weekly education sessions (Monday/Wednesday)</p>
@@ -127,7 +129,7 @@ function Section_4() {
                     </div> */}
                     {/* <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                         <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">Prosperity Sniper Software preview session</p>
@@ -157,7 +159,7 @@ function Section_4() {
                 <div class="monthly-content">
                     <div class="icon-content">
                         <div class="icon-mon">
-                            <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">2 weeks FREE with first month subscription!</p>
@@ -165,7 +167,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">Access to premium discord server (signals)</p>
@@ -173,7 +175,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">1 Month mentorship included</p>
@@ -181,7 +183,7 @@ function Section_4() {
                     </div>
                     <div class="icon-content">
                         <div class="icon-mon">
-                        <img src={CheckIcon} alt="" />
+                        <FontAwesomeIcon icon={faCheck} className='small-icon' style={{color: "#fff",}} />
                         </div>
                         <div class="contnt">
                             <p class="m-0">1 single psychology session included</p>

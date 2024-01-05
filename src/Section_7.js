@@ -45,25 +45,7 @@ function Section_7() {
 
 
       window.location.href=mailtoLink;
-     
-
-
-
-      // const emailbody = `
-      // name: ${values.name} 
-      // last_name: ${values.last_name}
-      // email: ${values.email} 
-      // Country: ${values.Country}
-      // Interested: ${values.Interested}
-      // Massage: ${values.Massage}
-      // ` ;
-
-
-
-      // const mailtoLink =`mailto:maq.asimqasim@gmail.com?subject=inquiry&body=${encodeURIComponent(emailbody)}`;
-
-
-      // window.location.href=mailtoLink;
+    
 
 
     },
@@ -154,9 +136,11 @@ function Section_7() {
            value={values.Country}
            onChange={handleChange}
            onBlur={handleBlur}>
-             <option value="" selected>select Country</option>
+            <option value="" selected>select Country</option>
             <option> pakistan</option>
             <option>India</option>
+            <option>UAE</option>
+            <option>BANGLADESH</option>
           </Form.Select>
             { errors.Country && touched.Country ? (<p className='form-errors'>{errors.Country}</p>) : null}
         </Form.Group>

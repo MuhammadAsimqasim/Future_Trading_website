@@ -4,6 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 import CheckIcon from './Assests/check.png';
 import Trade from './Assests/Trade.png';
 import Coin from './Assests/coin-Big.png';
+import nike from './Assests/nike.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 function Section_3() {
   return (
@@ -21,7 +24,9 @@ function Section_3() {
             <div className='price mt-5'>
                 <h1>$7,799 USD</h1>
                 <div className="rightside-icon">
-                    <img src={CheckIcon} alt=""  className='Check-icon'/>
+                    <div className='check-circle'>
+                    <FontAwesomeIcon icon={faCheck} className='Check-icon' style={{color: "#fff",}} />
+                    </div>
                     <div className="ridesidecontaint">
                         <p>Laptop included </p>
                         
@@ -29,15 +34,19 @@ function Section_3() {
                 </div>
 
                 <div className="rightside-icon">
-                    <img src={CheckIcon} alt=""  className='Check-icon'/>
+                    <div className='check-circle'>
+                    <FontAwesomeIcon icon={faCheck} className='Check-icon' style={{color: "#fff",}} />
+                    </div>
                     <div className="ridesidecontaint">
-                        <p>Custom coded onto your ninja trader platform</p>
+                        <p>Custom coded onto your ninja trader platform </p>
                         
                     </div>
                 </div>
 
                 <div className="rightside-icon">
-                    <img src={CheckIcon} alt=""  className='Check-icon'/>
+                    <div className='check-circle'>
+                    <FontAwesomeIcon icon={faCheck} className='Check-icon' style={{color: "#fff",}} />
+                    </div>
                     <div className="ridesidecontaint">
                         <p>3 Month one-to-one mentorship to educate you on futures trading</p>
                         
@@ -45,7 +54,9 @@ function Section_3() {
                 </div>
 
                 <div className="rightside-icon">
-                    <img src={CheckIcon} alt=""  className='Check-icon'/>
+                    <div className='check-circle'>
+                    <FontAwesomeIcon icon={faCheck} className='Check-icon' style={{color: "#fff",}} />
+                    </div>
                     <div className="ridesidecontaint">
                         <p>Access to the premium discord for 3 months (signals)</p>
                         
@@ -53,7 +64,9 @@ function Section_3() {
                 </div>
 
                 <div className="rightside-icon">
-                    <img src={CheckIcon} alt=""  className='Check-icon'/>
+                    <div className='check-circle'>
+                    <FontAwesomeIcon icon={faCheck} className='Check-icon' style={{color: "#fff",}} />
+                    </div>
                     <div className="ridesidecontaint">
                         <p>Psychology sessions with our 6 figure coaches</p>
                         

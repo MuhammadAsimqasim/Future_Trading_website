@@ -32,7 +32,7 @@
     font-family: Raleway-Bold;
 }
 .sub-footer-lable > ul > li{
-    margin: 0 0 15px 0;
+    /* margin: 0 0 15px 0; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,14 +41,15 @@
 .sub-footer-lable > ul > li > p{
     font-size: 16px;
     font-family: Raleway-Medium;
-    margin-bottom: 0;
+    padding-block: 10px;
+    /* margin: 0; */
     color: white;
     text-decoration: none;
 }
 .sub-footer-lable > ul > li > a{
     font-size: 16px;
+    padding-block: 10px;
     font-family: Raleway-Medium;
-    margin-bottom: 0;
     color: white;
     text-decoration: none;
 }
@@ -70,6 +71,7 @@
     background-color: white;
     padding: 5px;
     border-radius: 8px;
+  
 }
 .input-group .btn {
     z-index: 2;
@@ -135,6 +137,9 @@
 }
 
 @media (max-width: 767px){
+    .main-logo {
+        margin-left: -20px;
+     }
     .input-group{
         display: flex;
         flex-direction: column;
@@ -170,6 +175,9 @@
         padding-inline: 30px;
         padding-block: 10px;
     }
+    .main-logo {
+        margin-left: -20px;
+     }
 
 }
 @media (min-width: 992px) and (max-width: 1200px){

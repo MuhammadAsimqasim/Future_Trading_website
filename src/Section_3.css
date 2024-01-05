@@ -21,6 +21,14 @@
     font-size: 45px;
     padding-bottom: 20px;
 }
+.check-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FBCD39;
+
+}
+
 .rightside-icon{
     display: flex;
     gap: 20px;
@@ -35,9 +43,10 @@
 }
 
 .Check-icon{
-    height: 25px;
-    width: 25px;
-    object-fit: contain;
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+    /* object-fit: contain; */
 }
 .button-section-2{
     padding: 10px 40px;
@@ -81,11 +90,6 @@
         font-size: 30px;
         padding-bottom: 10px;
     }
-    .Check-icon {
-        height: 20px;
-        width: 20px;
-        object-fit: contain;
-    }
     .trade-image {
         margin-top: 40px;
     }
@@ -117,11 +121,6 @@
     .section-3-coin {
         left: 0px;
         bottom: 250px;
-    }
-    .Check-icon{
-        height: 25px;
-        width: 25px;
-        object-fit: contain;
     }
 
 }

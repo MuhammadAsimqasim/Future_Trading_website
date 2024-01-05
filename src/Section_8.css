@@ -18,8 +18,8 @@
 }
 .question{
     font-family: Raleway-Medium;
-    font-size: 16px;
-    color: #8c8c8c;
+    font-size: 18px;
+    color: #333333;
 }
 .last-pera{
     display: flex;
@@ -34,9 +34,8 @@
 }
 .answer{
     font-family: Raleway-Medium;
-    font-size: 13px;
-    color: black;
-    padding-right: 40px;
+    font-size: 17px;
+    color: #8c8c8c;
     padding-top: 10px;
 }
 .white-line{

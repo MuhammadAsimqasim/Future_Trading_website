@@ -21,18 +21,24 @@
     border: 1px solid #E4E4E4;
     font-size: 15px;
 }
-
+.massage-box::placeholder {
+    color: #BDBDBD;
+}
 .massage-box:focus {
     outline: none;
 }
 
 .form-control{
     box-shadow: none !important;
-    border-color: #BDBDBD  !important;
+    border-color: #E4E4E4  !important;
+    color: #BDBDBD !important;
 }
+.form-control::placeholder {
+    color: #BDBDBD;
+  }
 .form-select{
     box-shadow: none !important;
-    border-color: #BDBDBD  !important;
+    border-color: #E4E4E4 !important;
 
 }
 .email{
@@ -46,10 +52,7 @@
     font-family: Raleway-Medium;
     color: #BDBDBD;
     font-size: 15px;
-    border-color: #E4E4E4;
-    border: 1px solid #E4E4E4;
     min-height: 52px;
-
 }
 .Inquiry h1{
     font-family: Raleway-Medium;
